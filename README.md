@@ -11,15 +11,22 @@ git clone git@github.com:MDAnalysis/WorkshopHackathon2018.git
 ## Workshop Schedule
 
 Day 1:
- - Intro to MDAnalysis
- - Intro to Numpy
- - MDAnalysis Tutorials
+ - 09:00 Intro to MDAnalysis
+ - 10:30 Intro to Numpy
+ - 12:00 Lunch break
+ - 13:00 MDAnalysis Tutorials
    - Part 1
    - Part 2
    - Part 3
+ - 16:00 Advanced materials
+ - 17:00 End of day 1
+ - 17:30 Workshop social 
  
 Day 2:
- - Intro to Dask
- - Parallel MDA
- - Intro to open source development
+ - 09:00 Intro to Dask
+ - 10:30 Parallel MDA
+ - 12:00 Lunch break
+ - 13:00 Intro to open source development
+ - 15:00 Hackathon
+ - 17:00 End of day 2
  
