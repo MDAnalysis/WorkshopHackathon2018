@@ -11,6 +11,7 @@ git clone git@github.com:MDAnalysis/WorkshopHackathon2018.git
 ## Workshop Schedule
 
 Day 1:
+ - 08:30 Breakfast & Coffee
  - 09:00 Intro to MDAnalysis
  - 10:30 Intro to Numpy
  - 12:00 Lunch break
@@ -23,6 +24,7 @@ Day 1:
  - 17:30 Workshop social 
  
 Day 2:
+ - 08:30 Breakfast & Coffee
  - 09:00 Intro to Dask
  - 10:30 Parallel MDA
  - 12:00 Lunch break
