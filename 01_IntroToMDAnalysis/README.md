@@ -1,2 +1,3 @@
-# Intro to MDAnalysis
+## Intro to MDAnalysis
+### Hosted by @orbeckst
 
