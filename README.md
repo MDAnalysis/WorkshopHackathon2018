@@ -18,9 +18,9 @@ Day 1:
  - 10:30 [Intro to Numpy](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/02_IntoToNumpy)
  - 12:00 Lunch break
  - 13:00 MDAnalysis Tutorials
-   - [Part 1](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/03_Tutorial1)
-   - [Part 2](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/04_Tutorial2)
-   - [Part 3](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/05_Tutorial3)
+   - [Part 1 - Introduction to MDAnalysis objects](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/03_Tutorial1)
+   - [Part 2 - Dealing with distance calculations and trajectories](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/04_Tutorial2)
+   - [Part 3 - Using advanced analysis features](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/05_Tutorial3)
  - 16:00 [Advanced materials](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/06_AdvancedTutorials)
  - 17:00 End of day 1
  - 17:30 Workshop social 
