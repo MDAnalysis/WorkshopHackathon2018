@@ -1,6 +1,6 @@
 # Installing the environment
 
-The instructions were adapted from [Software Carpentry](http://software-carpentry.org). 
+The instructions were adapted from the [Computational Methods in Physics](http://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2018/01/09/00_Setting_up_the_environment/) course, which were themselves adapted from [Software Carpentry](http://software-carpentry.org).
 
 ## Overview
 
@@ -9,36 +9,27 @@ You will need to install
 1. [The Bash Shell](#shell)
 2. [Git](#git)
 3. a [text editor](#editor) (by default, `atom`)
-4. [Python](#python) (including a number of additional packages
-required for scientific computing)
+4. [Python](#python) (including a number of additional packages required for scientific computing)
 
-In each section, find the instructions for your operating system
-(Windows, macOS, or Linux).
+In each section, find the instructions for your operating system (Windows, macOS, or Linux).
 
-Once you have installed everything, [test your
-installation](#testing).
+Once you have installed everything, [test your installation](#testing).
 
 
 ## Setup
 
 <p>
-  To participate in the workshop, you will need
-  access to the software described below. In addition, you will
-  need an up-to-date web browser.
+  To participate in the workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
 </p>
 <p>
-  If you encounter <strong>problems during the installation</strong>
-  ask an instructor for help.  We also maintain resources for <a
-  href="https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting">trouble
-  shooting problems during the installation</a>.
+  If you encounter <strong>problems during the installation</strong> ask an instructor for help.  We also maintain resources for <a href="https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting">trouble shooting problems during the installation</a>.
 </p>
 
 <div id="shell"> <!-- Start of 'shell' section. -->
   <h3>The Bash Shell</h3>
 
   <p>
-    Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
   </p>
 
   <div class="row">
@@ -214,29 +205,6 @@ installation](#testing).
       </p>
       </div>
     <div class="col-md-4">
-	<h4 id="editor-windows-asu">Windows (on ASU laptop without superuser
-      privileges)</h4>
-	  
-      <p>On the ASU school laptops, <b>Sublime Text 3</b> is pre-installed
-    and you can use it instead of <tt>atom</tt>. Launch the editor from the Start Menu.
-    </p>
-	
-	<p>Customize the PATH environment so that you can launch
-    <tt>sublime_text.exe</tt> from the command line:</p>
-	<ol>
-		<li>Open the Git-Bash command line</li>
-		<li>Create the file <tt>$HOME/.bash_profile</tt> with the following content by typing
-		<pre>
-cat > $HOME/.bash_profile << 'EOF'
-# PHY494 bash startup
-export PATH="/c/Program Files/Sublime Text 3/:$PATH"
-EOF
-</pre>This will instruct Bash to look for your sublime text
-editor.</li>
-    </ol>
-    </div>
-
-    <div class="col-md-4">
       <h4 id="editor-macosx">macOS / Mac OS X</h4>
       <p>
 		We recommend <a href="https://atom.io/">atom</a> as a good editor that is
@@ -297,7 +265,7 @@ editor.</li>
     scientific computing, and great for general-purpose programming as
     well.  Installing all of its scientific packages individually can be
     a bit difficult, so we recommend
-    <a href="https://www.continuum.io/anaconda">Anaconda</a>,
+    <a href="https://www.anaconda.com/download/">Anaconda</a>,
     an all-in-one installer.
   </p>
 
@@ -322,55 +290,15 @@ editor.</li>
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
       <ol>
-        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Open <a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
       </ol>
     </div>
-
-    <div class="col-md-4">
-      <h4 id="python-windows-asu">Windows (on ASU laptops without
-      sysadmin and existing system anaconda)</h4>
-	  <p>If you are stuck with a laptop where you can only install as
-    a user <em>and</em> there is already a system-wide anaconda installation
-    present then you will need to install your own anaconda <em>and</em> make
-    sure that it is being used.</p>
-      <ol>
-        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
-        <li>Download the Python 3 installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for
-    installation <em>except</em> make sure to check <strong>Make
-    Anaconda the default Python</strong>.</li>
-		<li>Open the Git-Bash command line</li>
-		<li>Append (<tt>>></tt>) to the file <tt>$HOME/.bash_profile</tt> the following content by typing
-		<pre>
-cat >> $HOME/.bash_profile << 'EOF'
-# PHY494 bash startup for local Anaconda
-MYCONDA="$HOME/Anaconda3"
-export PATH="$MYCONDA:$MYCONDA/Scripts:$MYCONDA/libs/bin:$PATH"
-unset MYCONDA
-EOF
-</pre>This will instruct Bash to look for your conda installation
-before anything else.</li>
-    <li>Close the Git-Bash window.</li>
-	<li>Open a new Git-Bash window (so that your changes take effect).</li>
-    </ol>
-    </div>
-
-    <div class="col-md-4">
-      <h4 id="python-macosx">macOS / Mac OS X</h4>
-      <ol>
-        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
-        <li>Download the Python 3 installer for OS X.</li>
-        <li>Install Python 3 using all of the defaults for
-		installation.</li>
-      </ol>
-      </div>
-	  
     <div class="col-md-4">
       <h4 id="python-linux">Linux</h4>
       <ol>
-        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Open <a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a> with your web browser.</li>
         <li>Download the Python 3 installer for Linux.</li>
         <li>Install Python 3 using all of the defaults for installation.
         (Installation requires using the shell. If you aren't
@@ -380,7 +308,7 @@ before anything else.</li>
           Open a terminal window.
         </li>
         <li>
-          Type <pre>bash Anaconda-</pre> and then press
+          Type `bash Anaconda-` and then press
           tab. The name of the file you just downloaded should
           appear.
         </li>
@@ -397,44 +325,6 @@ before anything else.</li>
     </div>
 
 </div> <!-- End of 'Python' section. -->
-
-
-  <h3>VPython</h3>
-
-<p>For 3D visualization, we will use Jupyter <a href="http://vpython.org/">vpython</a> within the Jupyter notebook
-interface. This is not part of anaconda and so we need to install it separately after the anaconda installation.
-</p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="vpython-windows">Windows</h4>
-      <ol>
-        <li>Open the git-bash shell commandline (Start Menu: All
-    Programs: Git: Git Bash)</li>
-    <li>Type in the command line
-	<pre>pip install vpython</pre>
-	</li>
-    </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="vpython-macosx">macOS / Mac OS X</h4>
-      <ol>
-      <li>Open the Terminal (command line)</li>
-      <li>Type
-         <pre>pip install vpython</pre>
-	   </li>
-      </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="vpython-linux">Linux</h4>
-      <ol>
-	   <li>Open the Terminal (command line)</li>
-            <li>Type <pre>pip install vpython</pre></li>
-      </ol>
-    </div>
-  </div> <!-- End of 'VPython' section. -->
-</div>
-
 
 
 ## Testing
@@ -467,12 +357,6 @@ which should show something like `git version 2.7.0`.
 
 ### editor (atom)
 
-
-(If you don't have `atom` but some other editor such as `Sublime Text`
-check the section on <a href="#editor-windows-asu">Editor under
-Windows (ASU)</a> and ask an instructor for help.)
-
-
 #### First time
 
 Open `atom` using your GUI
@@ -495,9 +379,9 @@ window).
 
 In the shell, type
 
-{% highlight bash %}
+```
 atom
-{% endhighlight %}
+```
 
 It should open the editor. Exit the editor.
 
@@ -513,9 +397,9 @@ your system administrator password if requested).
 
 In the shell, type
 
-{% highlight bash %}
+```python
 python -c 'import sys; print(sys.version)'
-{% endhighlight %}
+```
 
 which should give something similar to `3.5.3 |Anaconda custom (x86_64)| (default, Mar  6 2017, 12:15:08)` (and more
 stuff). Important: you should have *Python 3*, i.e., a version like
@@ -523,15 +407,15 @@ stuff). Important: you should have *Python 3*, i.e., a version like
 
 
 
-### Jupyter notebook and VPython
+### Jupyter notebook
 
 <ol>
 <li>
 In the shell, type
 
-{% highlight bash %}
+```
 jupyter notebook
-{% endhighlight %}
+```
 
 This should open a browser window at <a href="http://localhost:8888">http://localhost:8888</a>. 
 </li>
@@ -539,24 +423,12 @@ This should open a browser window at <a href="http://localhost:8888">http://loca
 <li>Under <tt>Notebooks</tt> select <tt>Python</tt> or <tt>Python
 [conda root]</tt> (if it is shown)</li>
 <li>In the new window ("Untitled"), type
-{% highlight python %}
-print("Hello World!")
-{% endhighlight %}
+`print("Hello World!")`
 and press <tt>shift</tt> and <tt>return</tt> keys simultaneously to evaluate the
 cell. It should print "Hello World!".</li>
 <li>Close the browser tab with menu <tt>File: Close and Halt</tt>.</li>
 <li>In the files listing, select from <tt>New</tt> under <tt>Notebooks</tt> select
-<tt>Python [conda root]</tt> or <tt>VPython</tt> (if available)</li>
-<li>In the new window ("Untitled2"), type
-{% highlight python %}
-import vpython as vp
-box = vp.box()
-{% endhighlight %}
-and press <tt>shift</tt> and <tt>return</tt> keys simultaneously to evaluate the
-cell. It should open a graphics window in the notebook showing a
-cube. Use the mouse with right mouse button presse to turn the cube
-(on macOS, press <tt>control</tt> while clicking/pressing the touch pad to
-get "right click").</li>
+<tt>Python [conda root]</tt></li>
 <li>Close the browser tab with menu <tt>File: Close and Halt</tt>.</li>
 </ol>
 
@@ -580,10 +452,7 @@ If you have problems, ask an instructor.
   `/home/physics/Anaconda3/conda`). Try exiting the terminal and open
   a new terminal (or git bash) and try again. Changes to PATH only
   take effect when a new shell is opened.
-* The box in VPython is not visible, only a blank square. Try
-  opening the notebook in the Chrome web browser instead of
-  Explorer/Edge: Just type `http://localhost:8888` in Chrome's URL bar.
 
-See also [trouble shooting problems during the installation](https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting)
+See also [troubleshooting problems during the installation](https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting)
 
 
