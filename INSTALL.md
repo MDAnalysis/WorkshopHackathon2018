@@ -27,11 +27,9 @@ Once you have installed everything, [test your installation](#testing).
 
 <div id="shell"> <!-- Start of 'shell' section. -->
   <h3>The Bash Shell</h3>
-
   <p>
     Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
@@ -106,7 +104,6 @@ Once you have installed everything, [test your installation](#testing).
 <div id='git'> <!-- Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/-->
   <h3>Git</h3>
-
   <p>
     Git is a version control system that lets you track who made changes
     to what when and has options for easily updating a shared or public
@@ -116,7 +113,6 @@ Once you have installed everything, [test your installation](#testing).
     web browser (current versions of Chrome, Firefox, Safari,
     Microsoft Edge, or Internet Explorer version 11 or above).
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="git-windows">Windows</h4>
@@ -184,7 +180,7 @@ Once you have installed everything, [test your installation](#testing).
       <p>
 	    <a href="https://atom.io/">atom</a> is a good editor that is
         suitable for professional coding but also accessible to
-		newcomers with is graphical user interface.
+		newcomers with its graphical user interface.
         To install it,
         download a suitable installer from <a href="https://atom.io/">atom.io</a>
         and double click on the file to run it. (If you cannot find an
@@ -209,7 +205,7 @@ Once you have installed everything, [test your installation](#testing).
       <p>
 		We recommend <a href="https://atom.io/">atom</a> as a good editor that is
         suitable for professional coding but also accessible to
-		newcomers with is graphical user interface.
+		newcomers with its graphical user interface.
         To install it,
         download a suitable installation zip file from <a href="https://atom.io/">atom.io</a>
         and double click on the file to unpack it. Open your
@@ -237,7 +233,6 @@ Once you have installed everything, [test your installation](#testing).
 		We recommend <a href="https://atom.io/">atom</a> as a good editor that is
         suitable for professional coding but also accessible to
 		newcomers with is graphical user interface.
-
         Please follow the instructions on <a
 		href="https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux">Installing
 		atom on Linux</a> and ask an instructor for help if anything
@@ -259,7 +254,6 @@ Once you have installed everything, [test your installation](#testing).
 
 <div id="python"> 
   <h3>Python</h3>
-
   <p>
     <a href="http://python.org">Python</a> is a popular language for
     scientific computing, and great for general-purpose programming as
@@ -268,13 +262,11 @@ Once you have installed everything, [test your installation](#testing).
     <a href="https://www.anaconda.com/download/">Anaconda</a>,
     an all-in-one installer.
   </p>
-
     <p>
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
       (e.g., 3.4 or 3.5 is fine).
     </p>
-
     <p>
       We will teach Python using the Jupyter notebook, a programming environment
       that runs in a web browser. For this to work you will need a reasonably
@@ -284,9 +276,7 @@ Once you have installed everything, [test your installation](#testing).
       (some older browsers, including Internet Explorer version 9
       and below, are not).
       </p>
-
 <div class="row">
-
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
       <ol>
@@ -323,7 +313,6 @@ Once you have installed everything, [test your installation](#testing).
         </li>
       </ol>
     </div>
-
 </div> <!-- End of 'Python' section. -->
 
 
