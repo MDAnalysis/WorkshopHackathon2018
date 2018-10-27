@@ -271,11 +271,9 @@ Once you have installed everything, [test your installation](#testing).
       We will teach Python using the Jupyter notebook, a programming environment
       that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all <a
-      href='http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility'>supported</a>
-      (some older browsers, including Internet Explorer version 9
-      and below, are not).
-      </p>
+      Firefox browsers are all supported (some older browsers, including
+      Internet Explorer version 9 and below, are not).
+    </p>
 <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
@@ -315,6 +313,22 @@ Once you have installed everything, [test your installation](#testing).
     </div>
 </div> <!-- End of 'Python' section. -->
 
+
+## Installing Python packages
+
+You will need to install the following packages. Install MDAnalysis with
+`conda`:
+
+```bash
+conda config --add channels conda-forge
+conda install mdanalysis 
+```
+
+And install the pure-Python `MDanalysisData` and `pmda` packages with `pip`:
+
+```bash
+pip install MDAnalysisData pmda
+```
 
 ## Testing
 
