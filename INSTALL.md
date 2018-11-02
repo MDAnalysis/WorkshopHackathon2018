@@ -320,7 +320,7 @@ You will need to install the following packages. Install MDAnalysis with
 `conda`:
 
 ```bash
-conda install --channel conda-forge mdanalysis mdanalysisdata pmda
+conda install --channel conda-forge mdanalysis mdanalysistests mdanalysisdata pmda
 ```
 
 ## Testing
