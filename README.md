@@ -26,7 +26,7 @@ Linux are all supported.
 Day 1:
  - 08:30 Breakfast & Coffee
  - 09:00 [Intro to MDAnalysis](01_IntroToMDAnalysis)
- - 10:30 [Intro to Numpy](02_IntoToNumpy)
+ - 10:30 [Intro to Numpy](02_IntroToNumpy)
  - 12:00 Lunch break
  - 13:00 MDAnalysis Tutorials
    - [Part 1 - Introduction to MDAnalysis objects](03_Tutorial1)
