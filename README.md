@@ -15,7 +15,7 @@ which you can delete after the workshop). Because downloading and
 installing everything will take a while **you should install
 everything before coming to the workshop**.
 
-Follow the [installation instructions](INSTALL) — Windows, macOS, and
+Follow the [installation instructions](INSTALL.md) — Windows, macOS, and
 Linux are all supported.
 
 
