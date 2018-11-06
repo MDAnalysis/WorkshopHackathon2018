@@ -1,15 +1,15 @@
 # Installing the environment
 
-The instructions were adapted from the [Computational Methods in Physics](http://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2018/01/09/00_Setting_up_the_environment/) course, which were themselves adapted from [Software Carpentry](http://software-carpentry.org).
 
 ## Overview
 
-You will need to install
+You will need to make sure you have the following tools:
 
 1. [The Bash Shell](#shell)
 2. [Git](#git)
-3. a [text editor](#editor) (by default, `atom`)
+3. a [text editor](#editor) (we recommend [Atom](https://atom.io))
 4. [Python](#python) (including a number of additional packages required for scientific computing)
+5. [MDAnalysis](#mdanalysis)
 
 In each section, find the instructions for your operating system (Windows, macOS, or Linux).
 
@@ -314,7 +314,7 @@ Once you have installed everything, [test your installation](#testing).
 </div> <!-- End of 'Python' section. -->
 
 
-## Installing Python packages
+## <a name="mdanalysis"></a> MDAnalysis and other related Python packages
 
 You will need to install the following packages. Install MDAnalysis with
 `conda`:
@@ -332,9 +332,9 @@ Open a *terminal* (macOS, Linux) or open *Git Bash* (under
 
 Type
 
-{% highlight bash %}
+```bash
 echo $SHELL
-{% endhighlight %}
+```
 
 Should show `/bin/bash` or `/usr/bin/bash` (or similar).
 
@@ -345,9 +345,9 @@ interchangeably.
 
 In the shell, type
 
-{% highlight bash %}
+```bash
 git --version
-{% endhighlight %}
+```
 
 which should show something like `git version 2.7.0`.
 
@@ -451,4 +451,8 @@ If you have problems, ask an instructor.
 
 See also [troubleshooting problems during the installation](https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting)
 
+
+#### Credits 
+
+The instructions were adapted from the [Computational Methods in Physics](http://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2018/01/09/00_Setting_up_the_environment/) course, which were themselves adapted from [Software Carpentry](http://software-carpentry.org).
 
