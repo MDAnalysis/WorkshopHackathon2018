@@ -253,28 +253,28 @@ Once you have installed everything, [test your installation](#testing).
 </div> <!-- End of 'editor' section. -->
 
 <div id="python"> 
-  <h3>Python</h3>
-  <p>
-    <a href="http://python.org">Python</a> is a popular language for
-    scientific computing, and great for general-purpose programming as
-    well.  Installing all of its scientific packages individually can be
-    a bit difficult, so we recommend
-    <a href="https://www.anaconda.com/download/">Anaconda</a>,
-    an all-in-one installer.
-  </p>
-    <p>
+<h3>Python</h3>
+   <p>
+   <a href="http://python.org">Python</a> is a popular language for
+   scientific computing, and great for general-purpose programming as
+   well.  Installing all of its scientific packages individually can be
+   a bit difficult, so we recommend
+   <a href="https://www.anaconda.com/download/">Anaconda</a>,
+   an all-in-one installer.
+   </p>
+   <p>
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
       (e.g., 3.4 or 3.5 is fine).
-    </p>
-    <p>
+   </p>
+   <p>
       We will teach Python using the Jupyter notebook, a programming environment
       that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
       Firefox browsers are all supported (some older browsers, including
       Internet Explorer version 9 and below, are not).
-    </p>
-<div class="row">
+   </p>
+   <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
       <ol>
@@ -310,8 +310,10 @@ Once you have installed everything, [test your installation](#testing).
           (this makes the Anaconda distribution the default Python).
         </li>
       </ol>
-    </div>
+   </div>
+   </div>
 </div> <!-- End of 'Python' section. -->
+
 
 
 ## <a name="mdanalysis"></a> MDAnalysis and other related Python packages
@@ -320,8 +322,10 @@ You will need to install the following packages. Install MDAnalysis with
 `conda`:
 
 ```bash
-conda install --channel conda-forge mdanalysis mdanalysistests mdanalysisdata pmda
+conda config --add channels conda-forge 
+conda install mdanalysis mdanalysistests mdanalysisdata pmda
 ```
+
 
 ## Testing
 
@@ -360,10 +364,7 @@ Open `atom` using your GUI
 * macOS: from the Application folder
 * Linux: varies (but you might be able to skip to "From the shell"
 
-A window should open showing the atom logo and welcome screen, similar
-to 
-
-![atom welcome screenshot]({{site.baseurl}}/{{site.figs}}/atom_welcome.jpg)
+A window should open, showing the atom logo and welcome screen.
 
 If it tries to install additional commands (`atom` and `apm`) then let
 it do it and provide your system administrator password if required.
@@ -419,7 +420,7 @@ This should open a browser window at <a href="http://localhost:8888">http://loca
 <li>Under <tt>Notebooks</tt> select <tt>Python</tt> or <tt>Python
 [conda root]</tt> (if it is shown)</li>
 <li>In the new window ("Untitled"), type
-`print("Hello World!")`
+<tt>print("Hello World!")</tt>
 and press <tt>shift</tt> and <tt>return</tt> keys simultaneously to evaluate the
 cell. It should print "Hello World!".</li>
 <li>Close the browser tab with menu <tt>File: Close and Halt</tt>.</li>
