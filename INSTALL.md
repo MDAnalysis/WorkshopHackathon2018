@@ -22,7 +22,7 @@ Once you have installed everything, [test your installation](#testing).
   To participate in the workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
 </p>
 <p>
-  If you encounter <strong>problems during the installation</strong> ask an instructor for help.  We also maintain resources for <a href="https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting">trouble shooting problems during the installation</a>.
+  If you encounter <strong>problems during the installation</strong> ask an instructor for help.  We also maintain resources for <a href="https://github.com/MDAnalysis/WorkshopHackathon2018/wiki/installation-troubleshooting">trouble shooting problems during the installation</a>.
 </p>
 
 <div id="shell"> <!-- Start of 'shell' section. -->
