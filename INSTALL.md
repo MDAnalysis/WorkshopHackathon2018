@@ -324,6 +324,7 @@ You will need to install the following packages. Install MDAnalysis with
 ```bash
 conda config --add channels conda-forge 
 conda install mdanalysis mdanalysistests mdanalysisdata pmda
+conda install nglview
 ```
 
 For downloading test trajectories for the workshop see the wiki page
