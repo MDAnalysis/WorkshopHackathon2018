@@ -442,7 +442,7 @@ If you have problems, ask an instructor.
 
 * On Windows, the `pip` or `python` commands are not found. Follow the
   steps under [solution: pip or python are not found in
-  git-bash](https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting#pip-or-python-are-not-found-in-git-bash)
+  git-bash](https://github.com/MDAnalysis/WorkshopHackathon2018/wiki/installation-troubleshooting#pip-or-python-are-not-found-in-git-bash)
 * On macOS, if you get the error *OSError: [Errno 49] Can't assign
   requested address* you might need to use `jupyter notebook
   --ip=127.0.0.1`
@@ -454,7 +454,7 @@ If you have problems, ask an instructor.
   a new terminal (or git bash) and try again. Changes to PATH only
   take effect when a new shell is opened.
 
-See also [troubleshooting problems during the installation](https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting)
+See also [troubleshooting problems during the installation](https://github.com/MDAnalysis/WorkshopHackathon2018/wiki/installation-troubleshooting)
 
 
 #### Credits 
