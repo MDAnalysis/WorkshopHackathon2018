@@ -319,13 +319,17 @@ Once you have installed everything, [test your installation](#testing).
 ## <a name="mdanalysis"></a> MDAnalysis and other related Python packages
 
 You will need to install the following packages. Install MDAnalysis with
-`conda`:
+`conda` (from the *conda-forge* channel):
 
 ```bash
 conda config --add channels conda-forge 
 conda install mdanalysis mdanalysistests mdanalysisdata pmda
 ```
 
+For downloading test trajectories for the workshop see the wiki page
+on [downloading
+data](https://github.com/MDAnalysis/WorkshopHackathon2018/wiki/download-data);
+please check this page before the workshop for any updates.
 
 ## Testing
 
