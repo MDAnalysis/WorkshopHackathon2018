@@ -8,7 +8,9 @@ This directory holds a variety of different notebooks on different topics,
 these are possible starting points for diving deeper into MDAnalysis.
 
 These are:
- - Advanced Universe creation
+ - [Creating new systems from scratch](https://github.com/MDAnalysis/WorkshopHackathon2018/blob/master/06_AdvancedTutorials/Create_new_systems.ipynb)
+ - [Visualisation with NGLView](https://github.com/MDAnalysis/WorkshopHackathon2018/blob/master/06_AdvancedTutorials/VisualisationWithNGLView.ipynb)
+ - [Advanced Universe creation](https://github.com/MDAnalysis/WorkshopHackathon2018/blob/master/06_AdvancedTutorials/Advanced_universe_creation.ipynb)
  - Dealing with the protein databank
- - Reading weird and wonderful files
- - datreant a Python package for organising your computational work
+ - [Reading weird and wonderful files](https://github.com/MDAnalysis/WorkshopHackathon2018/blob/master/06_AdvancedTutorials/Writing_custom_readers.ipynb)
+ - [datreant a Python package for organising your computational work](https://github.com/MDAnalysis/WorkshopHackathon2018/blob/master/06_AdvancedTutorials/Managing_data_with_datreant.ipynb)
