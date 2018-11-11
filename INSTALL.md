@@ -1,15 +1,15 @@
 # Installing the environment
 
-The instructions were adapted from the [Computational Methods in Physics](http://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2018/01/09/00_Setting_up_the_environment/) course, which were themselves adapted from [Software Carpentry](http://software-carpentry.org).
 
 ## Overview
 
-You will need to install
+You will need to make sure you have the following tools:
 
 1. [The Bash Shell](#shell)
 2. [Git](#git)
-3. a [text editor](#editor) (by default, `atom`)
+3. a [text editor](#editor) (we recommend [Atom](https://atom.io))
 4. [Python](#python) (including a number of additional packages required for scientific computing)
+5. [MDAnalysis](#mdanalysis)
 
 In each section, find the instructions for your operating system (Windows, macOS, or Linux).
 
@@ -22,7 +22,7 @@ Once you have installed everything, [test your installation](#testing).
   To participate in the workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
 </p>
 <p>
-  If you encounter <strong>problems during the installation</strong> ask an instructor for help.  We also maintain resources for <a href="https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting">trouble shooting problems during the installation</a>.
+  If you encounter <strong>problems during the installation</strong> ask an instructor for help.  We also maintain resources for <a href="https://github.com/MDAnalysis/WorkshopHackathon2018/wiki/installation-troubleshooting">trouble shooting problems during the installation</a>.
 </p>
 
 <div id="shell"> <!-- Start of 'shell' section. -->
@@ -253,28 +253,28 @@ Once you have installed everything, [test your installation](#testing).
 </div> <!-- End of 'editor' section. -->
 
 <div id="python"> 
-  <h3>Python</h3>
-  <p>
-    <a href="http://python.org">Python</a> is a popular language for
-    scientific computing, and great for general-purpose programming as
-    well.  Installing all of its scientific packages individually can be
-    a bit difficult, so we recommend
-    <a href="https://www.anaconda.com/download/">Anaconda</a>,
-    an all-in-one installer.
-  </p>
-    <p>
+<h3>Python</h3>
+   <p>
+   <a href="http://python.org">Python</a> is a popular language for
+   scientific computing, and great for general-purpose programming as
+   well.  Installing all of its scientific packages individually can be
+   a bit difficult, so we recommend
+   <a href="https://www.anaconda.com/download/">Anaconda</a>,
+   an all-in-one installer.
+   </p>
+   <p>
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
       (e.g., 3.4 or 3.5 is fine).
-    </p>
-    <p>
+   </p>
+   <p>
       We will teach Python using the Jupyter notebook, a programming environment
       that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
       Firefox browsers are all supported (some older browsers, including
       Internet Explorer version 9 and below, are not).
-    </p>
-<div class="row">
+   </p>
+   <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
       <ol>
@@ -319,18 +319,27 @@ Once you have installed everything, [test your installation](#testing).
           (this makes the Anaconda distribution the default Python).
         </li>
       </ol>
-    </div>
+   </div>
+   </div>
 </div> <!-- End of 'Python' section. -->
 
 
-## Installing Python packages
+
+## <a name="mdanalysis"></a> MDAnalysis and other related Python packages
 
 You will need to install the following packages. Install MDAnalysis with
-`conda`:
+`conda` (from the *conda-forge* channel):
 
 ```bash
-conda install --channel conda-forge mdanalysis mdanalysistests mdanalysisdata pmda
+conda config --add channels conda-forge 
+conda install mdanalysis mdanalysistests mdanalysisdata pmda
+conda install nglview
 ```
+
+For downloading test trajectories for the workshop see the wiki page
+on [downloading
+data](https://github.com/MDAnalysis/WorkshopHackathon2018/wiki/download-data);
+please check this page before the workshop for any updates.
 
 ## Testing
 
@@ -341,9 +350,9 @@ Open a *terminal* (macOS, Linux) or open *Git Bash* (under
 
 Type
 
-{% highlight bash %}
+```bash
 echo $SHELL
-{% endhighlight %}
+```
 
 Should show `/bin/bash` or `/usr/bin/bash` (or similar).
 
@@ -354,9 +363,9 @@ interchangeably.
 
 In the shell, type
 
-{% highlight bash %}
+```bash
 git --version
-{% endhighlight %}
+```
 
 which should show something like `git version 2.7.0`.
 
@@ -369,10 +378,7 @@ Open `atom` using your GUI
 * macOS: from the Application folder
 * Linux: varies (but you might be able to skip to "From the shell"
 
-A window should open showing the atom logo and welcome screen, similar
-to 
-
-![atom welcome screenshot]({{site.baseurl}}/{{site.figs}}/atom_welcome.jpg)
+A window should open, showing the atom logo and welcome screen.
 
 If it tries to install additional commands (`atom` and `apm`) then let
 it do it and provide your system administrator password if required.
@@ -428,7 +434,7 @@ This should open a browser window at <a href="http://localhost:8888">http://loca
 <li>Under <tt>Notebooks</tt> select <tt>Python</tt> or <tt>Python
 [conda root]</tt> (if it is shown)</li>
 <li>In the new window ("Untitled"), type
-`print("Hello World!")`
+<tt>print("Hello World!")</tt>
 and press <tt>shift</tt> and <tt>return</tt> keys simultaneously to evaluate the
 cell. It should print "Hello World!".</li>
 <li>Close the browser tab with menu <tt>File: Close and Halt</tt>.</li>
@@ -446,7 +452,7 @@ If you have problems, ask an instructor.
 
 * On Windows, the `pip` or `python` commands are not found. Follow the
   steps under [solution: pip or python are not found in
-  git-bash](https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting#pip-or-python-are-not-found-in-git-bash)
+  git-bash](https://github.com/MDAnalysis/WorkshopHackathon2018/wiki/installation-troubleshooting#pip-or-python-are-not-found-in-git-bash)
 * On macOS, if you get the error *OSError: [Errno 49] Can't assign
   requested address* you might need to use `jupyter notebook
   --ip=127.0.0.1`
@@ -458,6 +464,10 @@ If you have problems, ask an instructor.
   a new terminal (or git bash) and try again. Changes to PATH only
   take effect when a new shell is opened.
 
-See also [troubleshooting problems during the installation](https://github.com/ASU-CompMethodsPhysics-PHY494/PHY494-resources/wiki/installation-troubleshooting)
+See also [troubleshooting problems during the installation](https://github.com/MDAnalysis/WorkshopHackathon2018/wiki/installation-troubleshooting)
 
+
+#### Credits 
+
+The instructions were adapted from the [Computational Methods in Physics](http://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2018/01/09/00_Setting_up_the_environment/) course, which were themselves adapted from [Software Carpentry](http://software-carpentry.org).
 

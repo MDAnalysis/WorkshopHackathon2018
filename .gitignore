@@ -1,1 +1,6 @@
 *~
+Gemfile.lock
+.sass-cache
+.bundle
+_site
+.ipynb_checkpoints
