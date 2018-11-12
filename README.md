@@ -24,28 +24,28 @@ Linux are all supported.
 ## Workshop Schedule
 
 Day 1:
- - 08:30 Breakfast & Coffee
+ - 08:30 Breakfast & Coffee ☕
  - 09:00 [Intro to MDAnalysis](01_IntroToMDAnalysis)
- - 10:00 Coffee!
+ - 10:00 ☕ Coffee! ☕
  - 10:30 [Intro to Numpy](02_IntroToNumpy)
  - 12:00 Lunch break
  - 13:00 MDAnalysis Tutorials
    - [Part 1 - Introduction to MDAnalysis objects](03_Tutorial1)
    - [Part 2 - Dealing with distance calculations and trajectories](04_Tutorial2)
    - [Part 3 - Using advanced analysis features](05_Tutorial3)
- - 14:30 Coffee!
+ - 14:30 ☕ Coffee! ☕
  - 16:00 [Advanced materials](06_AdvancedTutorials)
  - 17:00 End of day 1
  - 17:30 Workshop social 
  
 Day 2:
- - 08:30 Breakfast & Coffee
+ - 08:30 Breakfast & Coffee ☕
  - 09:00 [Intro to Dask](07_DaskTutorial)
- - 10:00 Coffee!
+ - 10:00 ☕ Coffee! ☕
  - 10:30 [Parallel MDA](08_PMDATutorial)
  - 12:00 Lunch break
  - 13:00 [Intro to open source development](09_DevelopmentTutorial)
- - 14:30 Coffee!
+ - 14:30 ☕ Coffee! ☕
  - 15:00 Hackathon
  - 17:00 End of day 2
  
