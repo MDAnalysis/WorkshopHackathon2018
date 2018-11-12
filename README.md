@@ -46,7 +46,7 @@ Day 1:
    - [Part 2 - Dealing with distance calculations and trajectories](04_Tutorial2)
    - [Part 3 - Using advanced analysis features](05_Tutorial3)
  - 14:30 ☕ Coffee! ☕
- - 16:00 [Advanced materials](06_AdvancedTutorials)
+ - 15:00 [Advanced materials](06_AdvancedTutorials)
  - 17:00 End of day 1
  - 17:30 Workshop social 
  
