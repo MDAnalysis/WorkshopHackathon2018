@@ -3,7 +3,7 @@
 This repo holds all the materials for the MDAnalysis 2018 Workshop and Hackathon.
 Materials are organised according to the Workshop schedule.
 
-See more [details about the workshop](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/00_WorkshopDetails)
+<!-- See more [details about the workshop](https://github.com/MDAnalysis/WorkshopHackathon2018/tree/master/00_WorkshopDetails) -->
 
 ## Before the workshop
 
@@ -18,6 +18,18 @@ everything before coming to the workshop**.
 Follow the [installation instructions](INSTALL.md) — Windows, macOS, and
 Linux are all supported.
 
+## Time and Location
+
+The workshop takes place on Nov 12 and Nov 13, 2016 at Northwestern
+University, 2nd floor of [Mudd
+Library](https://www.library.northwestern.edu/libraries-collections/mudd-library/index.html),
+2233 Tech Drive, Evanston, IL 60208, in the
+[classroom](https://www.library.northwestern.edu/visit/maps/mudd-library/index.html).
+
+## Conduct
+
+All participants agree to abide by the [MDAnalysis Code of
+  Conduct](https://www.mdanalysis.org/pages/conduct/).
 
 
 

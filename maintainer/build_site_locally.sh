@@ -7,5 +7,5 @@
 #   bundle-2.4 install
 #
 
-bundle-2.4 exec jekyll serve
+bundle-2.4 exec jekyll serve --incremental
 
