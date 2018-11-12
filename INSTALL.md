@@ -284,6 +284,15 @@ Once you have installed everything, [test your installation](#testing).
       </ol>
     </div>
     <div class="col-md-4">
+      <h4 id="python-macosx">macOS / Mac OS X</h4>
+      <ol>
+        <li>Open <a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a> with your web browser.</li>
+        <li>Download the Python 3 installer for OS X.</li>
+        <li>Install Python 3 using all of the defaults for
+		installation.</li>
+      </ol>
+      </div>
+    <div class="col-md-4">
       <h4 id="python-linux">Linux</h4>
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a> with your web browser.</li>
