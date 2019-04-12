@@ -4,9 +4,9 @@ Hosted by @orbeckst
 ### Presentation
 
 * [introduction to MDAnalysis
-  (PDF)](presentation/intro-mdanalysis.pdf)
+  (PDF)]({{ site.file }}/01_IntroToMDAnalysis/presentation/intro-mdanalysis.pdf)
 * introductory notebook
-  [presentation.ipynb](notebooks/presentation.ipynb)
+  [presentation.ipynb]({{ site.file }}/01_IntroToMDAnalysis/notebooks/presentation.ipynb)
   (executes the commands that are shown in the presentation)
 
 ### A tour of MDAnalysis
@@ -17,7 +17,7 @@ You can load the notebooks to follow along but note that we will
 discuss many of the uses in more detail during the following
 tutorials.
 
-* [introduction_MDAnalysis.ipynb](notebooks/introduction_MDAnalysis.ipynb)
-* [trajectory_magic.ipynb](notebooks/trajectory_magic.ipynb)
+* [introduction_MDAnalysis.ipynb]({{ site.file }}/01_IntroToMDAnalysis/notebooks/introduction_MDAnalysis.ipynb)
+* [trajectory_magic.ipynb]({{ site.file }}/01_IntroToMDAnalysis/notebooks/trajectory_magic.ipynb)
 
 

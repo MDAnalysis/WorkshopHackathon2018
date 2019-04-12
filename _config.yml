@@ -12,3 +12,9 @@ plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
+
+# use for all notebooks as {{ site.file }}/...
+file: https://github.com/MDAnalysis/WorkshopHackathon2018/blob/master
+
+# display in nbviewer as {{ site.nbviewer }}/...
+nbviewer: http://nbviewer.jupyter.org/github/MDAnalysis/WorkshopHackathon2018/blob/master
