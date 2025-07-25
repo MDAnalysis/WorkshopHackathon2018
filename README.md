@@ -29,7 +29,7 @@ Library](https://www.library.northwestern.edu/libraries-collections/mudd-library
 ## Conduct
 
 All participants agree to abide by the [MDAnalysis Code of
-  Conduct](https://www.mdanalysis.org/pages/conduct/).
+  Conduct](https://www.mdanalysis.org/conduct/).
 
 
 
